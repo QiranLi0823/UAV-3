@@ -1,0 +1,2 @@
+[ Wed Nov  6 07:17:59 2024 ] Load weights from ./temp/mix_2/runs-90-11700.pt.
+[ Wed Nov  6 07:18:02 2024 ] using warm up, epoch: 5

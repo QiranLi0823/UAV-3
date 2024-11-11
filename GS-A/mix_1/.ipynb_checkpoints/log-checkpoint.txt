@@ -1,0 +1,13 @@
+[ Wed Nov  6 00:12:41 2024 ] using warm up, epoch: 5
+[ Wed Nov  6 00:12:51 2024 ] Parameters:
+{'work_dir': './temp/mix_1', 'model_saved_name': './temp/mix_1/runs', 'config': './config/uav_csv2/_1.yaml', 'phase': 'train', 'save_score': False, 'seed': 1, 'log_interval': 100, 'save_interval': 1, 'save_epoch': 30, 'eval_interval': 5, 'print_log': True, 'show_topk': [1, 5], 'feeder': 'feeders.feeder_uav.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '../../data/train_joint1.npy', 'label_path': '../../data/train_label1.npy', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 64, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}, 'test_feeder_args': {'data_path': '../../data/val_joint.npy', 'label_path': '../../data/val_label.npy', 'split': 'test', 'window_size': 64, 'p_interval': [0.95], 'vel': False, 'bone': False, 'debug': False}, 'model': 'model.ske_mixf.Model', 'model_args': {'num_class': 155, 'num_point': 17, 'num_person': 2, 'graph': 'graph.uav.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'k': 1}, 'weights': None, 'ignore_weights': [], 'base_lr': 0.2, 'step': [35, 55, 75], 'device': 0, 'optimizer': 'SGD', 'nesterov': True, 'batch_size': 128, 'test_batch_size': 128, 'start_epoch': 0, 'num_epoch': 90, 'weight_decay': 0.0005, 'warm_up_epoch': 5}
+
+[ Wed Nov  6 00:12:51 2024 ] # Parameters: 1992073
+[ Wed Nov  6 00:12:51 2024 ] Training epoch: 1
+[ Wed Nov  6 00:17:09 2024 ] 	Mean training loss: 5.4164.  Mean training acc: 1.60%.
+[ Wed Nov  6 00:17:09 2024 ] 	Time consumption: [Data]01%, [Network]99%
+[ Wed Nov  6 00:17:09 2024 ] Eval epoch: 1
+[ Wed Nov  6 00:17:28 2024 ] 	Mean test loss of 16 batches: 5.162537395954132.
+[ Wed Nov  6 00:17:28 2024 ] 	Top1: 2.50%
+[ Wed Nov  6 00:17:28 2024 ] 	Top5: 8.95%
+[ Wed Nov  6 00:17:28 2024 ] Training epoch: 2

@@ -1,0 +1,4 @@
+[ Thu Nov  7 12:07:38 2024 ] Load weights from ./work_dir/FR_Head_2/runs-110-14300.pt.
+[ Thu Nov  7 12:07:41 2024 ] using warm up, epoch: 5
+[ Thu Nov  7 12:08:15 2024 ] Load weights from ./work_dir/FR_Head_2/runs-110-14300.pt.
+[ Thu Nov  7 12:08:18 2024 ] using warm up, epoch: 5

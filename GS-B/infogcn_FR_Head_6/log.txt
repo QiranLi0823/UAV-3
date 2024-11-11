@@ -1,0 +1,2 @@
+[ Sun Nov 10 06:28:59 2024 ] Load weights from ./work_dir/FR_Head_6/runs-110-14300.pt.
+[ Sun Nov 10 06:29:01 2024 ] using warm up, epoch: 5

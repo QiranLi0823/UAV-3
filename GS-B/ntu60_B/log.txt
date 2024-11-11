@@ -1,0 +1,3 @@
+[ 2024-11-06 06:50 ] Load weights from ./temp/ntu60_B/ntu60_B.pt
+[ 2024-11-06 06:50 ] Model load finished: model.sttformer.Model
+[ 2024-11-06 06:50 ] Data load finished

@@ -1,0 +1,2 @@
+[ Sun Nov 10 06:21:20 2024 ] Load weights from ./work_dir/angle_FR_Head_1/runs-110-14300.pt.
+[ Sun Nov 10 06:21:23 2024 ] using warm up, epoch: 5

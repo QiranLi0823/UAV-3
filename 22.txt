@@ -1,0 +1,89 @@
+model_name:mix_motion_1
+model_name:mix_motion_2
+model_name:mix_1
+model_name:infogcn_32frame_1
+model_name:motion_1
+model_name:infogcn_128frame_1
+model_name:infogcn_FR_Head_6
+model_name:mix_angle_1
+model_name:mix_2
+model_name:infogcn_FR_Head_1
+model_name:ntu60_A
+model_name:motion_6
+model_name:ntu60_M
+model_name:mix_6
+model_name:motion_2
+model_name:infogcn_angle_1
+model_name:ntu60_B
+model_name:mix_motion_6
+model_name:ntu60_J
+model_name:focalloss_1
+model_name:infogcn_FR_Head_2
+mix_alphas:[0, 0.4, 0.5, 0, 0.5, 0.1, 0.3, 1, 1, 1.3, 1.4, 0.5, 0.2, 0.5, 0.2, 0.1, 0.3, 0.5, 1.7, 0.1, 1.7]
+pred_score:(2000, 155) type:<class 'numpy.ndarray'>
+pre.shape:(2000,)
+CSv2 acc:0.5005
+(wsc_CNN) root@zhu606:/home/zhu606/wangshicheng2/BS/UAV-2# python ensemble.py
+model_name:infogcn_focalloss_1
+pkl_path:./GS-B/infogcn_focalloss_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_motion_1
+pkl_path:./GS-B/mix_motion_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_motion_2
+pkl_path:./GS-B/mix_motion_2/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_1
+pkl_path:./GS-B/mix_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_32frame_1
+pkl_path:./GS-B/infogcn_32frame_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_128frame_1
+pkl_path:./GS-B/infogcn_128frame_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_FR_Head_6
+pkl_path:./GS-B/infogcn_FR_Head_6/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_motion_6
+pkl_path:./GS-B/infogcn_motion_6/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_angle_1
+pkl_path:./GS-B/mix_angle_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_2
+pkl_path:./GS-B/mix_2/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_motion_2
+pkl_path:./GS-B/infogcn_motion_2/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_motion_1
+pkl_path:./GS-B/infogcn_motion_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_FR_Head_1
+pkl_path:./GS-B/infogcn_FR_Head_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:ntu60_A
+pkl_path:./GS-B/ntu60_A/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:ntu60_M
+pkl_path:./GS-B/ntu60_M/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_6
+pkl_path:./GS-B/mix_6/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_angle_1
+pkl_path:./GS-B/infogcn_angle_1/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:ntu60_B
+pkl_path:./GS-B/ntu60_B/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:mix_motion_6
+pkl_path:./GS-B/mix_motion_6/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:ntu60_J
+pkl_path:./GS-B/ntu60_J/epoch1_test_score.pkl
+->>>>>:(4307, 155)
+model_name:infogcn_FR_Head_2
+pkl_path:./GS-B/infogcn_FR_Head_2/epoch1_test_score.pkl
+->>>>>:(4307, 155)

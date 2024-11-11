@@ -1,0 +1,2 @@
+[ Fri Nov  8 05:01:08 2024 ] Load weights from ./work_dir/128frame_1/runs-110-28710.pt.
+[ Fri Nov  8 05:01:15 2024 ] using warm up, epoch: 5
